@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: white;
 }
 
 ul {
@@ -15,6 +15,11 @@ ul {
 	background-color: white;
 	position: fixed;
 }
+iframe{	
+	margin-top: 80px;
+	margin-left: 10%;
+	
+}
 #sidebar{
 	margin-top: 70px;
 	height:80%;
@@ -25,8 +30,9 @@ ul {
 
 #main_body{
 	
-	margin-left:160px;
+	margin-left:200px;
 	height: 80%;
+	
 	
 
 	
