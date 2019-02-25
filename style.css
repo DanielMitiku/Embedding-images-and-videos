@@ -3,28 +3,47 @@ body{
 }
 
 ul {
+	/*
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 0;*/
   }
 
 #navbar{
 	width: 100%;
 	margin-top: 0%;
-	background-color: aquamarine;
+	background-color: white;
 	position: fixed;
 }
 #sidebar{
-	margin-top: 100px;
-	height:100%;
+	margin-top: 70px;
+	height:80%;
 	width:160px;
 	position: fixed;
 	background-color: antiquewhite;
 }
 
 #main_body{
+	
 	margin-left:160px;
-	float: left;
-	height: 400px;
+	height: 80%;
+	
+
+	
 	background-color: blueviolet;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#search{
+	margin-top: 0;
+	width: 400px;
+	height: 20px;
+	margin-right: 200px;
+	margin-left: 100px;
 }
