@@ -14,42 +14,64 @@ ul {
 	margin-top: 0%;
 	background-color: white;
 	position: fixed;
+	height: 80px;
+	
+	border-bottom: 1px solid #d2d4d8;
 }
-iframe{	
-	margin-top: 80px;
+.iframe{	
+	padding-top: 80px;
 	margin-left: 10%;
 	
 }
 #sidebar{
-	margin-top: 70px;
+	margin-top: 81px;
+	float: left;
 	height:80%;
-	width:160px;
+	width:15%;
 	position: fixed;
-	background-color: antiquewhite;
+	background-color: white;
 }
 
 #main_body{
 	
 	margin-left:200px;
 	height: 80%;
-	
-	
-
-	
-	background-color: blueviolet;
+		background-color: white;
 }
+
 
 li {
 	list-style-type: none;
 	display: inline-block;
 	float: left;
-	margin-right: 50px;
+	margin-right: 35px;
 	margin-top: 20px;
 }
 #search{
 	margin-top: 0;
 	width: 400px;
 	height: 20px;
+	margin-right: 0px;
+	margin-left: 100px;
+	padding-right: 0;
+}
+#search-button{
+	margin-left: 0px;
 	margin-right: 200px;
+	height: 30px;
+	padding-left: 0;
+	float: left;
+}
+
+.sidepics{
+	margin: 40px 30px;
+	width: 200px;
+	height: 160px;
+}
+h2{
+	margin-left: 100px;
+}
+
+p{
 	margin-left: 100px;
 }
