@@ -1,3 +1,30 @@
+body{
+	background-color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+
 #navbar{
+	width: 100%;
+	margin-top: 0%;
+	background-color: aquamarine;
+	position: fixed;
+}
+#sidebar{
+	margin-top: 100px;
+	height:100%;
+	width:160px;
+	position: fixed;
+	background-color: antiquewhite;
+}
+
+#main_body{
+	margin-left:160px;
 	float: left;
+	height: 400px;
+	background-color: blueviolet;
 }
