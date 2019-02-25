@@ -25,18 +25,18 @@ ul {
 }
 #sidebar{
 	margin-top: 81px;
-	float: left;
+	float:left;
 	height:80%;
-	width:15%;
-	position: fixed;
+	width:30%;
 	background-color: white;
 }
 
 #main_body{
-	
-	margin-left:200px;
+	margin-right:0;
+	float: left;
 	height: 80%;
-		background-color: white;
+	width:65%;
+	background-color: white;
 }
 
 
@@ -49,25 +49,36 @@ li {
 }
 #search{
 	margin-top: 0;
-	width: 400px;
-	height: 20px;
-	margin-right: 0px;
+	
+	margin-right: 200px;
 	margin-left: 100px;
 	padding-right: 0;
 }
+#input{
+	width: 500px;
+	height: 20px;
+
+}
 #search-button{
-	margin-left: 0px;
-	margin-right: 200px;
-	height: 30px;
-	padding-left: 0;
-	float: left;
+	margin-top: 15px;
+	padding-bottom: 5px;
+
+}
+#button{
+	height: 15px;
+	width: 30px;
 }
 
 .sidepics{
-	margin: 40px 30px;
-	width: 200px;
-	height: 160px;
+	margin: 4px 3px;
+	width: 150px;
+	height: 120px;
+	/* float: left; */
 }
+/* .side p{
+	margin: 15px 5px;
+	width: 100px;
+} */
 h2{
 	margin-left: 100px;
 }
