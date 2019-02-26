@@ -57,6 +57,9 @@ li {
 #input{
 	width: 500px;
 	height: 20px;
+	width:400px;
+ 	margin-right: 0;
+ 
 
 }
 #search-button{
@@ -67,6 +70,7 @@ li {
 #button{
 	height: 15px;
 	width: 30px;
+	margin-left: 0;
 }
 
 .sidepics{
@@ -87,4 +91,11 @@ h2{
 
 p{
 	margin-left: 100px;
+}
+
+#btn-image{
+	margin-left: 0;
+	padding-left:  0;
+	width: 40px;
+
 }
