@@ -87,13 +87,11 @@ li {
 	/* margin: 55px 5px; */
 	width: 200px;
 }
-h2{
+.title{
 	margin-left: 100px;
 }
 
-p{
-	margin-left: 100px;
-}
+
 
 #btn-image{
 	margin-left: 0;
