@@ -1,0 +1,101 @@
+body{
+	background-color: white;
+}
+
+ul {
+	/*
+	list-style-type: none;
+	margin: 0;
+	padding: 0;*/
+  }
+
+#navbar{
+	width: 100%;
+	margin-top: 0%;
+	background-color: white;
+	position: fixed;
+	height: 80px;
+	
+	border-bottom: 1px solid #d2d4d8;
+}
+.iframe{	
+	padding-top: 80px;
+	margin-left: 10%;
+	
+}
+#sidebar{
+	margin-top: 81px;
+	float:left;
+	height:100%;
+	width:30%;
+	background-color: white;
+}
+
+#main_body{
+	margin-right:0;
+	float: left;
+	height: 80%;
+	width:65%;
+	background-color: white;
+}
+
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+#search{
+	margin-top: 0;
+	margin-right: 200px;
+	margin-left: 12%;
+	padding-right: 0;
+}
+#input{
+	width: 500px;
+	height: 20px;
+	width:400px;
+ 	margin-right: 0;
+ 
+
+}
+#search-button{
+	margin-top: 15px;
+	padding-bottom: 5px;
+
+}
+#button{
+	height: 15px;
+	width: 30px;
+	margin-left: 0;
+}
+
+.sidepics{
+	float: left;
+	margin: 4px 3px;
+	width: 150px;
+	height: 120px;
+	/* float: left; */
+}
+.side {
+	float: left;
+}
+.side p{
+	float: left;
+	/* margin: 55px 5px; */
+	width: 200px;
+}
+.title{
+	margin-left: 10%;
+}
+
+
+
+#btn-image{
+	margin-left: 0;
+	padding-left:  0;
+	width: 40px;
+
+}
