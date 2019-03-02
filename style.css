@@ -55,17 +55,19 @@ li a{
 }
 #main{
 	padding-top: 80px;
-	margin: 0 10px 0 70px;
+	margin: 0;
 	width: 100%;
 	background-color: white;
 }
 #main_body{
-	float: left;
-	width:58%;
+display: inline-block;
+margin-left: 70px;
+width:58%;
+vertical-align: top;
 }	
 #sidebar{
-	float:left;
-	width:35%;
+display:inline-block;
+width:35%;
 }
 .sidepics{
 	float: left;
@@ -91,9 +93,14 @@ width: 40%;
 }
 .title{
 	font-size: 20px;
+	line-height: 2.4rem;
+	font-weight: 400;
 }
 .title,.views{
 	margin-right: 10px;
+}
+.views{
+	color:#606060;
 }
 .head-text{
 	margin:0 !important;
