@@ -75,10 +75,18 @@ li a{
 }
 .side {
 	float: left;
+	width: 100%;
+}
+.side-img{
+float: left;
+width: 33%;
+}
+.side-text{
+float: left;
+width: 40%;
 }
 .side p{
 	float: left;
-	/* margin: 55px 5px; */
 	width: 200px;
 }
 .title{
@@ -87,6 +95,13 @@ li a{
 .title,.views{
 	margin-right: 10px;
 }
-.side-text{
-	display: inline-block;
+.head-text{
+	margin:0 !important;
+	color: grey;
+	font-size: 14px;
+	font-weight: 500;
+}
+.img-text{
+margin: 2px 0 10px 0;
+font-weight: bold;
 }
