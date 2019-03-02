@@ -1,83 +1,77 @@
 body{
 	background-color: white;
+	margin: 0;
+	font-family: 'Roboto','Arial',sans-serif;
 }
 
 ul {
-	/*
+	padding-top: 5px;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;*/
   }
 
 #navbar{
 	width: 100%;
-	margin-top: 0%;
-	background-color: white;
+	background-color: rgb(250, 250, 250);
 	position: fixed;
-	height: 80px;
-	
+	height: 70px;
+	display: inline-block;
 	border-bottom: 1px solid #d2d4d8;
 }
-.iframe{	
-	padding-top: 80px;
-	margin-left: 10%;
-	
-}
-#sidebar{
-	margin-top: 81px;
-	float:left;
-	height:100%;
-	width:30%;
-	background-color: white;
-}
-
-#main_body{
-	margin-right:0;
+#left-nav{
 	float: left;
-	height: 80%;
-	width:65%;
-	background-color: white;
 }
-
-
+#right-nav{
+	float: right;
+}
 li {
-	list-style-type: none;
-	display: inline-block;
 	float: left;
-	margin-right: 15px;
-	margin-top: 10px;
+	display: block;
+}
+li a{
+	margin-right: 20px;
 }
 #search{
-	margin-top: 0;
-	margin-right: 200px;
-	margin-left: 12%;
-	padding-right: 0;
+	margin-left: 100px;
+	width: 40%;
 }
 #input{
-	width: 500px;
-	height: 20px;
-	width:400px;
+	height: 30px;
+	width:100%;
  	margin-right: 0;
- 
-
 }
-#search-button{
-	margin-top: 15px;
-	padding-bottom: 5px;
-
+#input[placeholder]{
+	font-size: 16px;
+	padding-left: 5px;
+	line-height: 24px;
 }
-#button{
-	height: 15px;
-	width: 30px;
-	margin-left: 0;
+#search-link{
+	width: 10%;
+	height: 30px;
+	margin: 0;
 }
-
+#search-img{
+	margin: 0;
+	height: 37px;
+}
+#main{
+	padding-top: 80px;
+	margin: 0 10px 0 70px;
+	width: 100%;
+	background-color: white;
+}
+#main_body{
+	float: left;
+	width:58%;
+}	
+#sidebar{
+	float:left;
+	width:35%;
+}
 .sidepics{
 	float: left;
-	margin: 4px 3px;
+	margin: 4px 3px 4px 0;
 	width: 150px;
 	height: 120px;
-	/* float: left; */
 }
 .side {
 	float: left;
@@ -88,14 +82,11 @@ li {
 	width: 200px;
 }
 .title{
-	margin-left: 10%;
+	font-size: 20px;
 }
-
-
-
-#btn-image{
-	margin-left: 0;
-	padding-left:  0;
-	width: 40px;
-
+.title,.views{
+	margin-right: 10px;
+}
+.side-text{
+	display: inline-block;
 }
